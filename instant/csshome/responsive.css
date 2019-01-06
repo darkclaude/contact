@@ -1,0 +1,230 @@
+@charset "UTF-8";
+/* CSS Document */
+@media screen and (min-width : 320px) and (max-width : 350px) {
+	#contact iframe {width:	320px; }
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+	html, body, div, p, table, tr, td, th, tbody, tfoot, ul, li, ol, dl, dd, dt, fieldset, blockquote, 
+	cite, input, select, textarea, button, a, section, article, aside, header, footer, nav {font-size:12px;}
+	body {padding:0;}
+	.container {width:87%!important; padding:0px 20px;}
+	span.tabMenu {display:block; right:20px;}
+	a.btn-xlarge, input.btn-xlarge, a.btn-xlarge:hover, input.btn-xlarge:hover, input.btn-xlarge:active {padding:15px 25px; min-width:5.3em; font-size:1.5em;}
+	#home nav {display:none; padding:20px 0px; -webkit-border-radius:0.5em; border-radius:0.5em;}
+	nav ul {float:none!important; padding:0!important; margin:0!important;}
+	#home nav li {margin:0!important;}
+	#home nav li a {display:block; float:none!important; text-align:center; font-size:1.3em;}
+	#home {height:auto; margin-bottom:auto;}
+	#top {margin-bottom:10px;}
+	img.phoneScreen {position:absolute; left:50%; margin-left:-162px; width:auto; top:95px;}
+	#home .featureBox {left:450px!important; display:none!important;}
+	#homeFeatures .featureBox {left:0!important; width:93%!important;}
+	#homeFeatures .featureBox p {font-size:1em;}
+	#homeFeatures .featureBox span.arrow {display:none;}
+	.leftFeatures, .rightFeatures {min-height:55px; position:inherit!important;}
+	#quoteSlider {padding:10px 0px 50px;}
+	#contact div.span4 p {margin-bottom:0px;}
+	#gallery a img {width:100%; height:auto;}
+	.nav-tabs li a span {display:none!important;}
+	.buttonHolder {width:100%;}
+}
+/* Samsung Galaxy Grand */
+@media only screen and (width : 380px) and (orientation : portrait) {
+	img.phoneScreen {width:86%!important;}
+}
+/* iPhone 5 (portrait & landscape)----------- */
+@media only screen and (min-width : 320px) and (max-width : 570px) {
+	a.carousel-control {display:block; float:left; position:relative!important; margin-top:0.5em; width:1em; height:1em; }
+	#quoteSlider a.left, #moreApps a.left {margin-left:36%!important; margin-right:1%; }
+	ol.carousel-indicators {display:none;}
+	#GetItNow { padding-top:unset; }
+	#GetItNow a {width:12em; margin:0px auto 1em; float:none; padding:1em 0 0.9em 3.3em; }
+	#copyright .row-fluid [class*="span"] {text-align:center!important; margin-bottom:2em; }
+	#copyright .links a {margin:0!important; padding:0 5px; }
+	/*#homeFeatures {display:block; }
+	.contactInfo {margin-top:5em; }
+	img.pull-left, img.pull-right {display:block; float:none; margin:1em auto; }
+	.buttonHolder {width:100%;}
+	#top {padding:1em 0 0.2em!important; }
+}
+/* iPhone 5 (landscape)----------- */
+@media screen and (min-width : 320px) and (max-width : 568px) and (orientation : landscape) {
+html, body, div, p, table, tr, td, th, tbody, tfoot, ul, li, ol, dl, dd, dt, fieldset, blockquote, cite, input, select, textarea, button, a, section, article, aside, header, footer, nav {font-size:12px;}
+	body {padding:0;}
+	.container {width:88%; padding:0px 20px; position:relative;}
+	span.tabMenu {display:block; right:20px;}
+	a.btn-xlarge, input.btn-xlarge, a.btn-xlarge:hover, input.btn-xlarge:hover, input.btn-xlarge:active {padding:15px 25px; min-width:5.3em; font-size:1.5em;}
+	#home nav {display:none; padding:20px 0px;-webkit-border-radius:0.5em; border-radius:0.5em;}
+	nav ul {float:none!important; padding:0!important; margin:0!important;}
+	#home nav li {margin:0!important; display:inline-block; width:49%; }
+	#home nav li:nth-child(odd) {border-right:1px solid rgba(0,0,0,0.1); }
+	#home nav li a {display:block; text-align:left; font-size:1.3em; padding-left:2em; }
+	#home {height:430px; margin-bottom:45px;}
+	#top {margin-bottom:10px;}
+	img.phoneScreen {position:absolute; left:45%; margin-left:-160px; width:auto; top:0px;}
+	#home .featureBox {left:450px!important; display:none!important;}
+	#homeFeatures {padding-top:15em;}
+	#homeFeatures .featureBox {left:0!important; width:93%!important;}
+	#homeFeatures .featureBox p {font-size:1em;}
+	#homeFeatures .featureBox span.arrow {display:none;}
+	.leftFeatures, .rightFeatures {min-height:55px; position:inherit!important;}
+	#quoteSlider {padding:10px 0px 50px;}
+	#contact div.span4 p {margin-bottom:0px;}
+	#gallery a img {width:100%; height:auto;}
+	.nav-tabs li a span {display:none;}
+}
+/* iPhone 5 (portrait)----------- */
+@media screen and (min-width : 320px) and (max-width : 568px) and (orientation : portrait) {
+html, body, div, p, table, tr, td, th, tbody, tfoot, ul, li, ol, dl, dd, dt, fieldset, blockquote, cite, input, select, textarea, button, a, section, article, aside, header, footer, nav {font-size:12px;}
+	body {padding:0;}
+	.container {width:88%; padding:0px 20px; position:relative;}
+	span.tabMenu {display:block; right:20px;}
+	a.btn-xlarge, input.btn-xlarge, a.btn-xlarge:hover, input.btn-xlarge:hover, input.btn-xlarge:active {padding:15px 25px; min-width:5.3em; font-size:1.5em;}
+	#home nav {display:none; padding:20px 0px;-webkit-border-radius:0.5em; border-radius:0.5em;}
+	nav ul {float:none!important; padding:0!important; margin:0!important;}
+	#home nav li {margin:0!important;}
+	#home nav li a {display:block; float:none!important; text-align:center; font-size:1.3em;}
+	#home {height:auto; margin-bottom:auto;}
+	#top {margin-bottom:10px;}
+	img.phoneScreen {position:absolute; left:50%; margin-left:-162px; width:320px; top:0px;}
+	#home .featureBox {left:450px!important; display:none!important;}
+	#homeFeatures .featureBox {left:0!important; width:93%!important;}
+	#homeFeatures .featureBox p {font-size:1em;}
+	#homeFeatures .featureBox span.arrow {display:none;}
+	.leftFeatures, .rightFeatures {min-height:55px; position:inherit!important;}
+	#quoteSlider {padding:10px 0px 50px;}
+	#contact div.span4 p {margin-bottom:0px;}
+	#gallery a img {width:100%; height:auto;}
+}
+
+@media screen and (min-width : 320px) and (max-width : 1024px) {
+	a.carousel-control {visibility:visible!important;}
+	section.page-block {padding:initial;  }
+	#gallery a span.link {padding:0.65em 1em 1.4em; }
+	#vTabs .nav-tabs li a {min-width:15px!important; }
+	#subscribe .social-icons a, a.downloadBtn {opacity:1!important; }
+}
+@media only screen and (min-width : 569px) and (max-width : 599px) {
+	html, body, div, p, table, tr, td, th, tbody, tfoot, ul, li, ol, dl, dd, dt, fieldset, blockquote, cite, input, select, textarea, button, a, section, article, aside, header, footer, nav {font-size:12px;}
+	body {padding:0;}
+	.container {width:88%; padding:0px 20px; position:relative;}
+	span.tabMenu {display:block; right:20px;}
+	a.btn-xlarge, input.btn-xlarge, a.btn-xlarge:hover, input.btn-xlarge:hover, input.btn-xlarge:active {padding:15px 25px; min-width:5.3em; font-size:1.5em;}
+	#home nav {display:none; padding:20px 0px;-webkit-border-radius:0.5em; border-radius:0.5em;}
+	nav ul {float:none!important; padding:0!important; margin:0!important;}
+	#home nav li {margin:0!important;}
+	#home nav li a {display:block; float:none!important; text-align:center; font-size:1.3em;}
+	#home {height:430px; margin-bottom:45px;}
+	#top {margin-bottom:10px;}
+	img.phoneScreen {position:absolute; left:45%; margin-left:-160px; width:auto; top:0px;}
+	#home .featureBox {left:450px!important; display:none!important;}
+	#homeFeatures {padding-top:15em; display:block!important;}
+	#homeFeatures .featureBox {left:0!important; width:93%!important;}
+	#homeFeatures .featureBox p {font-size:1em;}
+	#homeFeatures .featureBox span.arrow {display:none;}
+	.leftFeatures, .rightFeatures {min-height:55px; position:inherit!important;}
+	#GetItNow a {float:none!important; width:12em; margin:0px auto 1em;}
+	#quoteSlider {padding:10px 0px 50px;}
+	#contact div.span4 p {margin-bottom:0px;}
+	#gallery a img {width:100%; height:auto;}
+	.nav-tabs li a span {display:none;}
+}
+@media screen and (min-width : 600px) and (max-width : 767px) {
+	html, body, div, p, table, tr, td, th, tbody, tfoot, ul, li, ol, dl, dd, dt, fieldset, blockquote, cite, input, select, textarea, button, a, section, article, aside, header, footer, nav {font-size:12px;}
+	body {padding:0;}
+	.container {width:560px; padding:0px 20px; position:relative;}
+	span.tabMenu {display:block; right:20px;}
+	a.btn-xlarge, input.btn-xlarge, a.btn-xlarge:hover, input.btn-xlarge:hover, input.btn-xlarge:active {padding:15px 25px; min-width:5.3em; font-size:1.5em;}
+	#home nav {display:none; padding:20px 0px;-webkit-border-radius:0.5em; border-radius:0.5em;}
+	nav ul {float:none!important; padding:0!important; margin:0!important;}
+
+	#home nav li {margin:0!important;}
+	#home nav li a {display:block; float:none!important; text-align:center; font-size:1.3em;}
+	#home {height:485px; margin-bottom:45px;}
+	#top {margin-bottom:10px;}
+	img.phoneScreen {position:absolute; left:19%!important; width:auto; top:0px;}
+	#home .featureBox {left:450px!important; display:none!important;}
+	#homeFeatures {display:block!important; }
+	#homeFeatures .featureBox {left:0!important;}
+	#homeFeatures .featureBox p {font-size:1em;}
+	#homeFeatures .featureBox span.arrow {display:none;}
+	.leftFeatures, .rightFeatures {position:inherit!important; min-height:50px!important;}
+	#quoteSlider {padding:10px 0px 50px;}
+	.buttonHolder {width:100%;}
+	#contact div.span4 p {margin-bottom:0px;}
+	#gallery a img {width:100%; height:auto;}
+	#copyright .row-fluid [class*="span"] {text-align:center!important; margin-bottom:2em; }
+	#copyright .links a {margin:0!important; padding:0 5px; }
+	a.downloadBtn {font-size:1.4em; padding:0.8em 0 0.9em 3.8em; width:11.5em; }
+	#GetItNow {padding-top:5em; }
+	.contactInfo {margin-top:5em; }
+	a.left {margin-left:40px;}
+	a.right {margin-right:40px;}
+	#contact iframe {margin-bottom:4em; }
+	#top {padding:1em 0 0.2em!important; }
+}
+/* iPads (portrait and landscape) ----------- */
+@media screen and (min-width : 768px) and (max-width : 1023px) {
+	html, body, div, p, table, tr, td, th, tbody, tfoot, ul, li, ol, dl, dd, dt, fieldset, blockquote, cite, input, select, textarea, button, a, section, article, aside, header, footer, nav {font-size:13px;}
+	body {padding:0;}
+	.container {width:728px; padding:0px 20px; position:relative;}
+	span.tabMenu {display:block; right:20px;}
+	a.btn-xlarge, input.btn-xlarge, a.btn-xlarge:hover, input.btn-xlarge:hover, input.btn-xlarge:active {padding:10px 15px; min-width:5.3em; font-size:1.2em;}
+	.brand, nav {float:none!important; margin:0; overflow:hidden;}
+	#home nav {display:none; padding:20px 0px; -webkit-border-radius:0.5em; border-radius:0.5em;}
+	nav ul {float:none!important; padding:0!important; margin:0!important;}
+	#home nav li {margin:0!important;}
+	#home nav li a {display:block; float:none!important; text-align:center;}
+	#home {height:410px; margin-bottom:65px;}
+	#home .featureBox span.arrow {left:-10px!important; background-position:0px -21px!important;}
+	#top {margin-bottom:10px;}
+	img.phoneScreen {position:absolute; left:0; width:40%;}
+	.leftFeatures, .rightFeatures {min-height:140px; position:inherit!important;}
+	.featureBox {margin-top:20px; display:block!important; width:170px!important; position:absolute; left:300px!important;}
+	.rightFeatures .featureBox {left:540px!important;}
+	a.left {margin-left:30px;}
+	a.right {margin-right:30px;}
+	#gallery div.span4 {margin-bottom:30px;}
+	.priceBox li {font-size:1em; padding:10px 20px 10px 50px;}
+	#contact iframe {width:98.5%; margin:0px auto;}
+	.buttonHolder {width:86%;}
+	#GetItNow a { margin:0 auto 1em;}
+	#GetItNow .span8 {margin-bottom:0; }
+	#contact iframe {margin-bottom:4em; }
+	#subscribe .span10 h1, #subscribe .span10 p {text-align:left!important; }
+	#top {padding:1em 0 0.2em!important; }
+}
+
+@media only screen and (max-width:800px) {
+	.brand, nav {float:none!important; margin:0!important; width:100%!important; overflow:hidden;}	
+	.brand {margin-bottom:10px!important;}
+	#subscribe * {text-align:center; }
+	#subscribe span.medium-circle {margin:10px auto; }
+	#subscribe .social-icons a, a.downloadBtn {opacity:1; }
+}
+ 
+/* iPads (landscape) ----------- */
+@media only screen and (min-width : 1024px) and (max-width : 1200px) and (orientation : landscape) {
+	html, body, div, p, table, tr, td, th, tbody, tfoot, ul, li, ol, dl, dd, dt, fieldset, blockquote, cite, input, select, textarea, button, a, section, article, aside, header, footer, nav {font-size:13px;}
+	body {padding:0;}
+	.container {width:960px; padding:0px 20px;}
+	a.btn-xlarge, input.btn-xlarge, a.btn-xlarge:hover, input.btn-xlarge:hover, input.btn-xlarge:active {padding:10px 15px; min-width:5.3em; font-size:1.2em;}
+	#home {height:420px; margin-bottom:65px;}
+	#top {margin-bottom:10px;}
+	#home nav {display:block!important;}
+	a.left {margin-left:25px;}
+	a.right {margin-right:25px;}
+	#gallery div.span4 {margin-bottom:30px;}
+	.priceBox li {font-size:1em; padding:10px 20px 10px 50px;}
+	#contact iframe {width:98.5%; margin:0px auto;}
+	.leftFeatures, .rightFeatures {min-height:140px; position:inherit!important;}
+	.featureBox {margin-top:25px; }
+	#GetItNow a {width:12em; margin:0px auto 1em; }
+	#contact iframe {margin-bottom:4em; }
+}
+ /* Desktops, Large Screen and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+.container {width:1170px;}
+}

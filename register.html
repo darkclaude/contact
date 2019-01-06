@@ -1,0 +1,76 @@
+
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+   Register
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content has-header white-background class="getstart">
+  <div style="margin: 0 auto; display: block;" >
+    <img     height="80"  src="assets/images/itclogo.png" />
+  </div>
+     
+    
+<ion-grid >
+  <ion-row wrap padding>
+      
+        
+    <ion-col col-12 col-sm-12 col-md-12 offset-lg-3 col-lg-6 offset-xl-3 col-xl-6>
+    
+     
+ 
+      <div   class="form">
+        <ion-item no-padding transparent color="#23aadb"  >
+          <font color="#FFFFFF">
+          <ion-icon color="#23aadb" item-left name="person"></ion-icon>
+        
+              
+          <ion-label floating ><b>First Name</b></ion-label>
+        </font>
+          <ion-input required type="text" [(ngModel)]="firstname"></ion-input>
+        </ion-item>
+        <ion-item no-padding transparent>
+     <font color="#FFFFFF">
+        <ion-icon color="#23aadb" item-left name="person"></ion-icon>
+         
+          <ion-label floating><b>Last Name</b></ion-label>
+        </font>
+          <ion-input required type="text" [(ngModel)]="lastname"></ion-input>
+        </ion-item>
+        <ion-item no-padding transparent>
+            <font color="#FFFFFF">
+          <ion-icon color="#23aadb"  item-left name="call"></ion-icon>
+     
+          <ion-label floating><b>Phone Number</b></ion-label>
+          </font>
+          <ion-input required type="number" [(ngModel)]="phone"></ion-input>
+        </ion-item>
+        <ion-item no-padding transparent>
+            <font color="#FFFFFF">
+          <ion-icon color="#23aadb"  item-left name="key"></ion-icon>
+
+          <ion-label floating><b>Password</b></ion-label>
+          </font>
+          <ion-input required type="password" [(ngModel)]="password"></ion-input>
+        </ion-item>
+        <ion-item no-padding transparent>
+            <font color="#FFFFFF">
+        
+          <ion-icon  color="#23aadb"  item-left name="key"></ion-icon>
+          <ion-label floating><b>Confirm Password</b></ion-label>
+          </font>
+          <ion-input required type="password" [(ngModel)]="passwordc"></ion-input>
+        </ion-item>
+       
+      
+        <br>
+        <button ion-button   left [strong]="true" (click)="goback()">Go  Back</button>
+        <button ion-button  right [strong]="true" (click)="register()">{{btnt}}</button>
+      </div>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+</ion-content>

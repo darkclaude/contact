@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* CSS Document */
+
+a, #about img.staff-pic, .priceBox li, #pricing .priceBox a:hover {-webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
+a.btn-xlarge, a.btn, .nav-tabs li a, a.accordion-toggle {-webkit-transition:none; -moz-transition:none; -ms-transition:none; -o-transition:none; transition:none;}
+ul.social-icons li a span {-webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;}
+#gallery a, #gallery a span, #gallery a img {-webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;}
+#gallery a:hover img {-moz-transform: scale(1.5) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+-webkit-transform: scale(1.5) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+-o-transform: scale(1.5) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+-ms-transform: scale(1.5) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+transform: scale(1.5) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);}
+
+#features span.large-circle {-webkit-transition: all 0.6s ease-in-out; -moz-transition: all 0.6s ease-in-out; -ms-transition: all 0.6s ease-in-out; -o-transition: all 0.6s ease-in-out; transition: all 0.6s ease-in-out;}
+#features span.large-circle:hover {-moz-transform: scale(1) rotate(360deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+-webkit-transform: scale(1) rotate(360deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+-o-transform: scale(1) rotate(360deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+-ms-transform: scale(1) rotate(360deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+transform: scale(1) rotate(360deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);}

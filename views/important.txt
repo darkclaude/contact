@@ -1,0 +1,1 @@
+my font-awesome folder also has css and fonts in it. So does that affect the renaming

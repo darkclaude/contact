@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html ng-app >
+<head>
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107715939-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-107715939-1');
+</script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.8"> 
+  <title>FreebieX Login</title>
+  
+      <link rel="stylesheet" href="css/stylell.css">
+          <link rel="stylesheet" href="css/font-awesome.min.css"> <!-- load fontawesome -->
+    <link rel="stylesheet"  href="sweetalert/dist/sweetalert.css">
+  <script src="sweetalert/dist/sweetalert.min.js"></script>
+      <script src="js/angular.min.js"></script>
+      <script src="controlA.js"></script>
+         <link rel="icon" href="favicon2.ico">
+
+
+
+  
+</head>
+
+<body ng-controller="ACtrl">
+  <div class="login-page">
+  <div class="form">
+    <form class="login-form" >
+<img src="freb.png" style="	 " alt="Smiley face" height="150" width="170" align="middle"><br>
+   <% if (message.length > 0) { %>
+
+        <div class="alert alert-danger"><%= message %></div>
+        <% if (message=="Account Not activated!"){ %>   <a href="/auth/activate" class="btn btn-info btn-lg"><h3>Go to Activation Page</h3></a> <% }%> 
+    <% } %> <br>
+
+    
+       <input type="text" class="number" ng-model="pnumber" placeholder="Phone Number">
+      <input type="text" ng-model="code" class="refcode" placeholder="Activation Code">
+      <h3>If you have Received code within 5 Minutes , select below,YES to Activate or NO to Resend </h3>
+    
+    <select ng-model="resend" placeholder="Choose option here" name="so">
+      <option >YES</option>
+      <option>NO</option>
+    </select>
+    <button id="myBtn" ng-click="activate()" >Activate</button>
+     <p class="message">Already registered? <a href="/auth/signup">Log In here</a></p>
+      <p class="message">Not registered? <a href="/auth/signup">Create an account</a></p>
+    </form>
+  </div>
+</div>
+
+
+</body>
+</html>

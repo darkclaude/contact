@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Freebiex Registration</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/styler1.css">
+
+  
+</head>
+
+<body>
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+<div class="wrapper">
+
+  <h1>FreebieX Registration</h1>
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="freb.png" style="	 " alt="Smiley face" height="150" width="170" align="middle"><br><br><br>
+  <p>To sign-up for an account please provide us with some basic information using
+  the contact form below. Please use valid credentials.</p>
+  <form class="form" method="post" action="/auth/signup">
+  	   <% if (message.length > 0) { %>
+        <div class="alert alert-danger"><%= message %></div>
+    <% } %>
+    <input type="text" name="name" class="name" placeholder="Name">
+    <div>
+      <p class="name-help">Please enter your first and last name.</p>
+    </div>
+    <input type="text" class="number" name="pnumber" placeholder="Phone Number">
+     <div>
+      <p class="phone-help">Please enter your current Phone Number.</p>
+    </div>
+      <div>
+      <p class="form-control">Please select network provider.</p>
+    </div>
+      <select name="provider" class="form-control" placeholder="Select a Network">
+      	<option>MTN</option>
+      	<option>TIGO</option>
+      	<option>VODAFONE</option>
+      	<option>Airtel</option>
+      </select>
+   
+      <input type="text" name="refcode" class="refcode" placeholder="Referral Code">
+     <div>
+      <p class="ref-help">Leave empty is none.</p>
+    </div>
+      <input type="password" name="password" class="password" placeholder="Password">
+     <div>
+      <p class="pass-help">Please enter your password</p>
+    </div>
+      <input type="password" name="passwordc" class="passwordc" placeholder="Confirm password">
+     <div>
+      <p class="pass2-help">Please confirm your password</p>
+    </div>
+    <input type="submit" class="submit" value="Register">
+  </form><br>
+  	<div class="foot-lnk">
+					<a href="/auth/login"><h3>Already a member? Login Here</h3></a><br>
+					
+				</div>
+</div>
+<p class="optimize">
+  FreebieX 2017.!
+</p>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script  src="js/index2.js"></script>
+
+</body>
+</html>

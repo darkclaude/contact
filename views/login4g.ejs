@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107715939-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-107715939-1');
+</script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.8"> 
+  <title>InstantPins Login</title>
+  
+      <link rel="stylesheet" href="css/stylell.css">
+      <link rel="icon" href="favicon2.ico">
+
+  
+</head>
+
+<body>
+  <div class="login-page">
+  <div class="form">
+    <form class="login-form" action="/auth/login" method="POST">
+<img src="ghanafrag.png" style="	 " alt="Smiley face" height="150" width="170" align="middle"><br>
+   <% if (message.length > 0) { %>
+
+        <div class="alert alert-danger"><%= message %></div>
+        <% if (message=="Account Not activated!"){ %>   <a href="/auth/activate" class="btn btn-info btn-lg"><h3>Go to Activation Page</h3></a> <% }%> 
+    <% } %> <br>
+      <input name="email" type="text" placeholder="username"/>
+      <input name="password" type="password" placeholder="password"/>
+      <button>login</button>
+    
+    </form>
+  </div>
+</div>
+
+
+</body>
+</html>

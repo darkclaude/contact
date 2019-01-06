@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107715939-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-107715939-1');
+</script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.8"> 
+  <title>FreebieX Registration</title>
+  
+      <link rel="stylesheet" href="css/stylell.css">
+   <link rel="icon" href="favicon2.ico">
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+
+
+  
+</head>
+
+<body>
+  <div class="login-page">
+  <div class="form">
+    <form class="login-form" action="/auth/signup" method="POST">
+<img src="ghanafrag.png" style="	 " alt="Smiley face" height="150" width="170" align="middle"><br>
+    <% if (message.length > 0) { %>
+        <div class="alert alert-danger"><%= message %></div>
+    <% } %><br>
+     <input type="text" name="name" class="name" placeholder="Name">
+      <input type="text" class="number" name="pnumber" placeholder="Phone Number">
+     <input type="password" name="password" class="password" placeholder="Password">
+       <input type="password" name="passwordc" class="passwordc" placeholder="Confirm password">
+       <input type="spassword" name="spassword" class="spassword" placeholder="Admin password">
+      <button>Register</button>
+   
+    </form>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>FreebieX Login </title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://www.google.com/fonts#UsePlace:use/Collection:Roboto:400,300,100,500'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://www.google.com/fonts#UsePlace:use/Collection:Roboto+Slab:400,700,300,100'>
+
+      <link rel="stylesheet" href="css/stylel.css">
+
+  
+</head>
+
+<body>
+  
+
+<div id="dialog" class="dialog dialog-effect-in">
+  <div class="dialog-front">
+    <div class="dialog-content">
+      <form id="login_form" class="dialog-form" action="/auth/login" method="POST">
+        <fieldset>
+          <legend>Log in</legend>
+                <% if (message.length > 0) { %>
+        <div class="alert alert-danger"><%= message %></div>
+    <% } %>
+          <div class="form-group">
+            <label for="user_username" class="control-label">Phone Number:</label>
+            <input type="text" id="user_username" class="form-control" name="email" autofocus/>
+          </div>
+          <div class="form-group">
+            <label for="user_password" class="control-label">Password:</label>
+            <input type="password" id="user_password" class="form-control" name="password"/>
+          </div>
+          <div class="text-center pad-top-20">
+            <p>Have you forgotten your<br><a href="#" class="link"><strong>username</strong></a> or <a href="#" class="link"><strong>password</strong></a>?</p>
+          </div>
+          <div class="pad-top-20 pad-btm-20">
+            <input type="submit" class="btn btn-default btn-block btn-lg" value="Logon">
+          </div>
+        
+        </fieldset>
+      </form>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
